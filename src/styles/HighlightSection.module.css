@@ -1,0 +1,27 @@
+.highlightSection {
+  padding: 3rem 0;
+}
+
+.highlightSection__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+.highlightSection__cardBox {
+  display: flex;
+  /* align-items: center; */
+  gap: 17px;
+}
+
+@media only screen and (max-width: 992px) {
+  .highlightSection {
+    padding: 3rem 1rem;
+  }
+
+  .highlightSection__cardBox {
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
+}

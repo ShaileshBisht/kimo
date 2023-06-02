@@ -1,0 +1,40 @@
+.mobileNavBar {
+  position: fixed;
+  inset: 0;
+  background: #00000083;
+  z-index: 200;
+}
+
+.mobileNavBar__box {
+  width: 90%;
+  margin-left: auto;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+  padding: 2.5rem;
+  padding-top: 7rem;
+}
+
+.mobileNavBar__box > h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 2.5rem;
+}
+
+.mobileNavBar__box > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 128px;
+  height: 40px;
+  background: #008080;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.mobileNavBar__box_close {
+  position: absolute;
+  top: 2.5%;
+  right: 10%;
+}

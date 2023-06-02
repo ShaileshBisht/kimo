@@ -1,0 +1,37 @@
+.travelGuideCard {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.travelGuideCard_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.travelGuideCard_left h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.travelGuideCard_left span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.travelGuideCard_left_bottom button {
+  border: 1px solid #008080;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 24px 11px;
+  cursor: pointer;
+  background: #fff;
+}

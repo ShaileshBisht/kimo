@@ -1,0 +1,69 @@
+.heroBanner {
+  width: 100%;
+  height: 60vh;
+  background-image: url("../../public/images/kimo_hero.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.heroBanner__navBar {
+  position: absolute;
+  top: 1rem;
+}
+
+.heroBanner__title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.heroBanner__title > h1 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 6.44%, #ffffff 95.08%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding-top: 4rem;
+}
+
+.heroBanner__title > p {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 1.5rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 6.44%, #ffffff 95.08%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media only screen and (max-width: 992px) {
+  .heroBanner__navBar {
+    position: fixed;
+    top: 0rem;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+
+  .heroBanner {
+    background-size: cover;
+  }
+
+  .heroBanner__title {
+    font-size: 30px;
+  }
+
+  .heroBanner__title > p {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 1rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 6.44%, #ffffff 95.08%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}

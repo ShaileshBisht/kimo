@@ -1,0 +1,15 @@
+.stickCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 0 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.stickCard:hover {
+  scale: 1.05;
+}
