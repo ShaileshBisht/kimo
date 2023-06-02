@@ -15,7 +15,7 @@
   padding-top: 7rem;
 }
 
-.mobileNavBar__box > h1 {
+.mobileNavBar__box h1 {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -38,3 +38,15 @@
   top: 2.5%;
   right: 10%;
 }
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover,
+.link:focus {
+  color: #008080;
+  scale: 1.05;
+}
+
