@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styles from "@/styles/MobileNavBar.module.css";
 import Image from "next/image";
 import Close from "../../public/images/close.svg";
+import Link from "next/link";
 
 const MobileNavBar = ({ setNavBarToggle }) => {
   return (
@@ -11,10 +12,18 @@ const MobileNavBar = ({ setNavBarToggle }) => {
           <Image src={Close} alt="Picture" />
         </div>
 
-        <h1>Home</h1>
-        <h1>Surfing</h1>
-        <h1>Hula</h1>
-        <h1>Vulcano</h1>
+       <Link className={styles.link} href={"/"}>
+          <h1>Home</h1>
+        </Link>
+        <Link className={styles.link} href={"/activities/Surfing"}>
+          <h1>Surfing</h1>
+        </Link>
+        <Link className={styles.link} href={"/activities/Traditional%20Festivals"}>
+          <h1>Festival</h1>
+        </Link>
+        <Link className={styles.link} href={"/activities/Volcanoes"}>
+          <h1>Volcanoes</h1>
+        </Link>
 
         <button>Book a trip</button>
       </div>
